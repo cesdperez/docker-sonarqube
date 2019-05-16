@@ -1,5 +1,5 @@
-FROM sonarqube:5.6
-MAINTAINER Marco Pas "marco.pas@gmx.net"
+FROM sonarqube:7.1
+MAINTAINER Cesar Daniel Perez "cesdperez@gmail.com"
 
 # create plugin download location; so we can copy them later when SonarQube is started
 ENV PLUGIN_DOWNLOAD_LOCATION /opt/plugins-download
